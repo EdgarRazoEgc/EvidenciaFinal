@@ -1,4 +1,49 @@
 
+Uso del Programa:
+
+Una vez que hayas compilado y ejecutado el programa, podrás utilizar las diferentes funcionalidades del sistema a través del menú principal. A continuación, se describen los pasos para utilizar cada una de las funcionalidades disponibles:
+
+1. Dar de alta doctores:
+   - Selecciona la opción "Dar de alta doctores" en el menú principal.
+   - Ingresa el identificador único del doctor.
+   - Ingresa el nombre del doctor.
+   - Ingresa la especialidad del doctor.
+   - El doctor será registrado y guardado en la lista de doctores.
+
+2. Dar de alta pacientes:
+   - Selecciona la opción "Dar de alta pacientes" en el menú principal.
+   - Ingresa el identificador único del paciente.
+   - Ingresa el nombre del paciente.
+   - El paciente será registrado y guardado en la lista de pacientes.
+
+3. Crear cita:
+   - Selecciona la opción "Crear cita" en el menú principal.
+   - Ingresa el identificador único de la cita.
+   - Ingresa la fecha y hora de la cita en el formato especificado (por ejemplo, "YYYY-MM-DD HH:MM").
+   - Ingresa el motivo de la cita.
+   - La cita será creada y guardada en la lista de citas.
+
+4. Relacionar cita con doctor y paciente:
+   - Selecciona la opción "Relacionar cita con doctor y paciente" en el menú principal.
+   - Selecciona la cita que deseas relacionar de la lista de citas disponibles.
+   - Selecciona el doctor de la lista de doctores disponibles.
+   - Selecciona el paciente de la lista de pacientes disponibles.
+   - La cita será relacionada con el doctor y paciente seleccionados y la relación será guardada.
+
+5. Ver citas relacionadas con doctor:
+   - Selecciona la opción "Ver citas relacionadas con doctor" en el menú principal.
+   - Selecciona el doctor para el cual deseas ver las citas relacionadas.
+   - Se mostrará en pantalla la lista de citas relacionadas con el doctor seleccionado.
+
+6. Salir:
+   - Selecciona la opción "Salir" en el menú principal.
+   - El programa se cerrará y los datos se guardarán automáticamente en los archivos correspondientes.
+
+Recuerda que los datos de doctores, pacientes, citas y relaciones se guardan en archivos de texto, por lo que podrás retomar el progreso y mantener la información almacenada en ejecuciones posteriores del programa.
+
+Sigue las instrucciones en pantalla y utiliza las opciones del menú para administrar citas, doctores, pacientes y sus relaciones. Siempre puedes consultar la documentación del proyecto para obtener más detalles sobre cada funcionalidad y la estructura del proyecto en general.
+
+
 
 # Documentación del Proyecto de Administración de Citas
 
