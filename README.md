@@ -1,5 +1,24 @@
-# Uso del Programa
+# instalacion y Configuracion
 
+Para instalar y configurar el proyecto en IntelliJ desde un repositorio de GitHub, sigue estos pasos:
+
+1. Descargar e instalar IntelliJ: Ve al sitio web oficial de IntelliJ (https://www.jetbrains.com/idea/) y descarga la versión adecuada para tu sistema operativo. Sigue las instrucciones de instalación proporcionadas.
+
+2. Clonar el repositorio de GitHub: Abre IntelliJ y selecciona "Check out from Version Control" en la pantalla de bienvenida. Luego elige "Git" como el sistema de control de versiones. Ingresa la URL del repositorio de GitHub y selecciona un directorio de destino local para clonar el repositorio. Haz clic en "Clone" para descargar los archivos del repositorio.
+
+3. Importar el proyecto: Una vez que se haya clonado el repositorio, IntelliJ detectará el archivo de configuración del proyecto. Haz clic en "Open" para importar el proyecto.
+
+4. Configurar el SDK de Java: Si el proyecto utiliza una versión específica de Java, asegúrate de configurar el SDK de Java correctamente en IntelliJ. Ve a "File" en la barra de menú y selecciona "Project Structure". En la ventana emergente, ve a "Project Settings" y luego a "Project". Asegúrate de que el SDK de Java correcto esté seleccionado o configúralo si es necesario.
+
+5. Configurar las dependencias: Si el proyecto tiene dependencias externas, como bibliotecas o frameworks, debes configurarlas en IntelliJ. Esto se puede hacer a través de un sistema de gestión de dependencias como Maven o Gradle. Si el proyecto utiliza Maven, IntelliJ detectará automáticamente el archivo `pom.xml` y ofrecerá importar las dependencias. Si utiliza Gradle, IntelliJ detectará el archivo `build.gradle` y realizará una configuración similar.
+
+6. Configurar la ejecución del proyecto: Si el proyecto tiene una configuración de ejecución específica, como argumentos de línea de comandos o variables de entorno, debes configurarla en IntelliJ. Ve a "Run" en la barra de menú y selecciona "Edit Configurations". En la ventana emergente, haz clic en el botón "+" y elige el tipo de configuración adecuado para tu proyecto (por ejemplo, "Application" para ejecutar una aplicación Java). Configura los parámetros de ejecución según sea necesario.
+
+7. Ejecutar el proyecto: Una vez que hayas configurado todo, puedes ejecutar el proyecto en IntelliJ. Ve a "Run" en la barra de menú y selecciona la configuración de ejecución que has creado. El proyecto se compilará y se ejecutará según las configuraciones establecidas.
+
+Con estos pasos, deberías poder instalar y configurar el proyecto desde el repositorio de GitHub en IntelliJ. Asegúrate de tener una conexión a Internet activa durante el proceso de clonación y configuración de dependencias, ya que IntelliJ descargará los archivos necesarios del repositorio y las bibliotecas externas.
+
+# Uso del Programa 
 Una vez que hayas compilado y ejecutado el programa, podrás utilizar las diferentes funcionalidades del sistema a través del menú principal. A continuación, se describen los pasos para utilizar cada una de las funcionalidades disponibles:
 
 1. Dar de alta doctores:
