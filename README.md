@@ -1,4 +1,4 @@
-
+#Uso del Progrma:
 Uso del Programa:
 
 Una vez que hayas compilado y ejecutado el programa, podrás utilizar las diferentes funcionalidades del sistema a través del menú principal. A continuación, se describen los pasos para utilizar cada una de las funcionalidades disponibles:
