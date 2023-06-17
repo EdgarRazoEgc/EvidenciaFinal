@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Citass:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Citass_jar</output-path>
+    <root id="archive" name="Citass.jar">
+      <element id="module-output" name="Citass" />
+    </root>
+  </artifact>
+</component>
