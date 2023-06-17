@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Citass:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b2152a-27d1-40e3-86ba-ae761e3b2524" name="Changes" comment="Cambios de pruebas en &quot;private static void darDeAltaDoctores&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Citass_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="40b2152a-27d1-40e3-86ba-ae761e3b2524" name="Changes" comment="Creacion de la aplicacion citas">
+      <change beforePath="$PROJECT_DIR$/src/paqprincipal/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paqprincipal/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "jdk.selected.JAVA_MODULE": "11"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,19 +51,11 @@
       <option name="project" value="LOCAL" />
       <updated>1686956458932</updated>
     </task>
-    <task id="LOCAL-00002" summary="Cambios de pruebas en &quot;private static void darDeAltaDoctores&quot;">
-      <created>1686959013034</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1686959013034</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de la aplicacion citas" />
-    <MESSAGE value="Cambios de pruebas en &quot;private static void darDeAltaDoctores&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios de pruebas en &quot;private static void darDeAltaDoctores&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la aplicacion citas" />
   </component>
 </project>
