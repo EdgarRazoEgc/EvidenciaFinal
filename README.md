@@ -1,6 +1,6 @@
 # instalacion y Configuracion
 
-##Para instalar y configurar el proyecto en IntelliJ desde un repositorio de GitHub, sigue estos pasos: 
+##  Para instalar y configurar el proyecto en IntelliJ desde un repositorio de GitHub, sigue estos pasos:
 
 1. Descargar e instalar IntelliJ: Ve al sitio web oficial de IntelliJ (https://www.jetbrains.com/idea/) y descarga la versión adecuada para tu sistema operativo. Sigue las instrucciones de instalación proporcionadas.
 
@@ -17,6 +17,34 @@
 7. Ejecutar el proyecto: Una vez que hayas configurado todo, puedes ejecutar el proyecto en IntelliJ. Ve a "Run" en la barra de menú y selecciona la configuración de ejecución que has creado. El proyecto se compilará y se ejecutará según las configuraciones establecidas.
 
 Con estos pasos, deberías poder instalar y configurar el proyecto desde el repositorio de GitHub en IntelliJ. Asegúrate de tener una conexión a Internet activa durante el proceso de clonación y configuración de dependencias, ya que IntelliJ descargará los archivos necesarios del repositorio y las bibliotecas externas.
+
+##  Para instalar y ejecutar un archivo JAR (Java Archive) en tu sistema, sigue los siguientes pasos:
+
+1. Verifica que tengas instalado Java: Antes de ejecutar un archivo JAR, asegúrate de tener Java instalado en tu sistema. Puedes verificar si tienes Java instalado abriendo una terminal o símbolo del sistema y escribiendo el siguiente comando:
+
+   ```
+   java -version
+   ```
+
+   Esto mostrará la versión de Java instalada en tu sistema. Si no tienes Java instalado o necesitas una versión más reciente, puedes descargarlo e instalarlo desde el sitio web oficial de Java (https://www.java.com).
+
+2. Ubica el archivo JAR: Localiza el archivo JAR que deseas instalar y ejecutar en tu sistema. Asegúrate de tener la ruta completa hacia el archivo.
+
+3. Instalación del archivo JAR: No es necesario instalar un archivo JAR en el sentido tradicional, ya que es un archivo ejecutable independiente. Sin embargo, puedes crear una carpeta dedicada para colocar el archivo JAR si lo deseas, para mantener tu entorno organizado.
+
+4. Ejecución del archivo JAR: Abre una terminal o símbolo del sistema y navega a la ubicación donde se encuentra el archivo JAR. Luego, ejecuta el siguiente comando:
+
+   ```
+   java -jar nombre_archivo.jar
+   ```
+
+   Asegúrate de reemplazar "nombre_archivo.jar" con el nombre real del archivo JAR que deseas ejecutar.
+
+5. El archivo JAR se ejecutará y comenzará a funcionar según el código y las configuraciones que tenga. Verás la salida en la terminal o símbolo del sistema, dependiendo de cómo se haya implementado el proyecto.
+
+Es importante tener en cuenta que algunos archivos JAR pueden requerir argumentos adicionales para su ejecución, como parámetros de configuración o rutas de archivos externos. Si el proyecto lo requiere, asegúrate de consultar la documentación o los pasos proporcionados por el desarrollador para ejecutar correctamente el archivo JAR.
+
+¡Con estos pasos, deberías poder instalar y ejecutar un archivo JAR en tu sistema!
 
 # Uso del Programa 
 Una vez que hayas compilado y ejecutado el programa, podrás utilizar las diferentes funcionalidades del sistema a través del menú principal. A continuación, se describen los pasos para utilizar cada una de las funcionalidades disponibles:
