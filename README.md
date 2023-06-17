@@ -1,6 +1,6 @@
 # instalacion y Configuracion
 
-Para instalar y configurar el proyecto en IntelliJ desde un repositorio de GitHub, sigue estos pasos:
+##Para instalar y configurar el proyecto en IntelliJ desde un repositorio de GitHub, sigue estos pasos: 
 
 1. Descargar e instalar IntelliJ: Ve al sitio web oficial de IntelliJ (https://www.jetbrains.com/idea/) y descarga la versión adecuada para tu sistema operativo. Sigue las instrucciones de instalación proporcionadas.
 
