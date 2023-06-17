@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b2152a-27d1-40e3-86ba-ae761e3b2524" name="Changes" comment="Creacion de la aplicacion citas">
-      <change beforePath="$PROJECT_DIR$/src/paqprincipal/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paqprincipal/MainClass.java" afterDir="false" />
+    <list default="true" id="40b2152a-27d1-40e3-86ba-ae761e3b2524" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Citass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paqprincipal/Cita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paqprincipal/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paqprincipal/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paqprincipal/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paqprincipal/RelacionCitaDoctorPaciente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1686955438443</updated>
     </task>
-    <task id="LOCAL-00001" summary="Creacion de la aplicacion citas">
-      <created>1686956458932</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1686956458932</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creacion de la aplicacion citas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la aplicacion citas" />
   </component>
 </project>
