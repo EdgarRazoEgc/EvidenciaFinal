@@ -1,6 +1,5 @@
 # Uso del Programa
 
-
 Una vez que hayas compilado y ejecutado el programa, podrás utilizar las diferentes funcionalidades del sistema a través del menú principal. A continuación, se describen los pasos para utilizar cada una de las funcionalidades disponibles:
 
 1. Dar de alta doctores:
@@ -44,76 +43,42 @@ Recuerda que los datos de doctores, pacientes, citas y relaciones se guardan en 
 Sigue las instrucciones en pantalla y utiliza las opciones del menú para administrar citas, doctores, pacientes y sus relaciones. Siempre puedes consultar la documentación del proyecto para obtener más detalles sobre cada funcionalidad y la estructura del proyecto en general.
 
 
+# Licenci
 
-# Documentación del Proyecto de Administración de Citas
+### Commons Zero v1.0 Universal (CC0):
 
-## Descripción del Proyecto
+---
 
-El Proyecto de Administración de Citas es una aplicación que permite gestionar citas médicas entre doctores y pacientes. El sistema permite dar de alta doctores y pacientes, crear citas, relacionar citas con doctores y pacientes, y ver las citas relacionadas con un doctor específico. El objetivo principal de este proyecto es facilitar el proceso de agendamiento de citas médicas y mejorar la eficiencia en la atención de pacientes.
+CÓDIGO LEGAL DE CREATIVE COMMONS
 
-## Estructura del Proyecto
+CC0 1.0 UNIVERSAL
 
-El proyecto está desarrollado en lenguaje de programación Java y sigue una estructura modularizada, separando las clases y funcionalidades en diferentes archivos.
+CREATIVE COMMONS CORPORATION NO ES UN BUFETE DE ABOGADOS Y NO PROPORCIONA SERVICIOS LEGALES. LA DISTRIBUCIÓN DE ESTE DOCUMENTO NO CREA UNA RELACIÓN DE ABOGADO-CLIENTE. CREATIVE COMMONS PROPORCIONA ESTA INFORMACIÓN "TAL CUAL". CREATIVE COMMONS NO OFRECE GARANTÍAS CON RESPECTO AL USO DE ESTE DOCUMENTO O LA INFORMACIÓN O LAS OBRAS PROPORCIONADAS EN ÉL Y RENUNCIA A LA RESPONSABILIDAD POR DAÑOS RESULTANTES DEL USO DE ESTE DOCUMENTO O LA INFORMACIÓN O LAS OBRAS PROPORCIONADAS EN ÉL.
 
-La estructura del proyecto se organiza de la siguiente manera:
+Declaración de Propósito
 
-- El archivo `MainClass.java` contiene la clase principal que ejecuta la aplicación y maneja el menú principal del sistema.
-- El archivo `Doctor.java` define la clase `Doctor`, que representa a un doctor con su identificador único, nombre y especialidad.
-- El archivo `Paciente.java` define la clase `Paciente`, que representa a un paciente con su identificador único y nombre.
-- El archivo `Cita.java` define la clase `Cita`, que representa una cita médica con su identificador único, fecha y hora, y motivo.
-- El archivo `RelacionCitaDoctorPaciente.java` define la clase `RelacionCitaDoctorPaciente`, que relaciona una cita con un doctor y un paciente.
+Las leyes de la mayoría de las jurisdicciones en todo el mundo otorgan automáticamente derechos exclusivos de derechos de autor y derechos conexos (definidos a continuación) al creador y al posterior propietario(s) (en adelante, "propietario") de una obra original de autoría y/o una base de datos (en adelante, "Obra").
 
-## Funcionalidades del Sistema
+Ciertos propietarios desean renunciar permanentemente a esos derechos sobre una Obra con el propósito de contribuir a un conjunto de obras creativas, culturales y científicas ("Conjunto") en el que el público pueda confiar y construir sin temor a reclamos posteriores de infracción, modificar, incorporar en otras obras, reutilizar y redistribuir libremente en cualquier forma y para cualquier propósito, incluyendo, entre otros, fines comerciales. Estos propietarios pueden contribuir al Conjunto para promover el ideal de una cultura libre y la producción adicional de obras creativas, culturales y científicas, o para obtener reputación o una mayor distribución para su Obra en parte a través del uso y los esfuerzos de otros.
 
-El sistema de administración de citas proporciona las siguientes funcionalidades:
+Con estos y/o otros propósitos y motivaciones, y sin ninguna expectativa de consideración o compensación adicional, la persona que asocia CC0 con una Obra (en adelante, "Afirmando"), en la medida en que sea propietario de Derechos de Autor y Derechos Conexos en la Obra, elige voluntariamente aplicar CC0 a la Obra y distribuir públicamente la Obra bajo sus términos, con conocimiento de sus Derechos de Autor y Derechos Conexos en la Obra y el significado y el efecto legal previsto de CC0 en esos derechos.
 
-1. Dar de alta doctores: Permite ingresar la información de un doctor, incluyendo su identificador único, nombre y especialidad. Los doctores ingresados se almacenan en una lista.
-2. Dar de alta pacientes: Permite ingresar la información de un paciente, incluyendo su identificador único y nombre. Los pacientes ingresados se almacenan en una lista.
-3. Crear cita: Permite crear una nueva cita médica ingresando su identificador único, fecha y hora, y motivo. Las citas creadas se almacenan en una lista.
-4. Relacionar cita con doctor y paciente: Permite relacionar una cita existente con un doctor y un paciente. Esta relación se guarda en una lista de relaciones.
-5. Ver citas relacionadas con doctor: Permite buscar todas las citas relacionadas con un doctor específico y mostrarlas en pantalla.
-6. Salir: Permite salir del sistema.
+- Derechos de Autor y Derechos Conexos. Una Obra puesta a disposición bajo CC0 puede estar protegida por derechos de autor y derechos conexos o afines ("Derechos de Autor y Derechos Conexos"). Los Derechos de Autor y Derechos Conexos incluyen, entre otros, los siguientes:
+  i. el derecho de reproducir, adaptar, distribuir, realizar, exhibir, comunicar y traducir una Obra;
+  ii. los derechos morales retenidos por el(s) autor(es) y/o el(s) intérprete(s) original(es);
+  iii. los derechos de publicidad y privacidad relacionados con la imagen o s
 
-## Persistencia de Datos
+emejanza de una persona representada en una Obra;
+  iv. los derechos de protección contra la competencia desleal con respecto a una Obra, sujeto a las limitaciones en el párrafo 4(a) a continuación;
+  v. los derechos de protección de la extracción, difusión, uso y reutilización de datos en una Obra;
+  vi. los derechos de base de datos (tales como los que surgen en virtud de la Directiva 96/9/CE del Parlamento Europeo y del Consejo, de 11 de marzo de 1996, sobre la protección jurídica de las bases de datos, y en virtud de cualquier implementación nacional de la misma, incluyendo cualquier versión enmendada o sucesora de dicha directiva); y
+  vii. otros derechos similares, equivalentes o correspondientes en todo el mundo basados en la ley o tratado aplicable y cualquier implementación nacional de los mismos.
+  
+- Renuncia. En la medida máxima permitida por, pero sin contravenir, la ley aplicable, el Afirmando renuncia, abandona y cede de manera explícita, plena, permanente, irrevocable e incondicional todos sus Derechos de Autor y Derechos Conexos y las reclamaciones y causas de acción asociadas, ya sean conocidas o desconocidas (incluyendo las reclamaciones y causas de acción existentes y futuras), en la Obra (i) en todos los territorios del mundo, (ii) por la duración máxima establecida por la ley o el tratado aplicable (incluyendo extensiones futuras), (iii) en cualquier medio actual o futuro y para cualquier número de copias, y (iv) para cualquier propósito, incluyendo, entre otros, fines comerciales, publicitarios o promocionales (la "Renuncia"). El Afirmando hace la Renuncia en beneficio del público en general y en detrimento de los herederos y sucesores del Afirmando, con la intención de que dicha Renuncia no esté sujeta a revocación, rescisión, cancelación, terminación o cualquier otra acción legal o equitativa que interrumpa el disfrute tranquilo de la Obra por parte del público según lo contemplado por el Declaración de Propósito expresa del Afirmando.
+  
+- Alternativa de Licencia Pública. Si alguna parte de la Renuncia se considerara legalmente inválida o ineficaz por cualquier motivo bajo la ley aplicable, entonces la Renuncia se mantendrá en la medida máxima permitida teniendo en cuenta la Declaración de Propósito expresa del Afirmando. Además, en la medida en que se determine que la Renuncia es inválida o ineficaz, el Afirmando otorga a cada persona afectada una licencia gratuita, no transferible, no sublicenciable, no exclusiva, irrevocable e incondicional para ejercer los Derechos de Autor y Derechos Conexos del Afirmando en la Obra (i) en todos los territorios del mundo, (ii) por la duración máxima proporcionada por la ley o el tratado aplicable (incluyendo extensiones futuras), (iii) en cualquier medio actual o futuro y para cualquier número de copias, y (iv) para cualquier propósito, incluyendo, entre otros, fines comerciales, publicitarios
 
-El sistema utiliza archivos de texto para almacenar los datos de doctores, pacientes, citas y relaciones. Cada entidad se guarda en un archivo separado, utilizando una estructura de campos separados por comas (CSV). Al iniciar el sistema, los datos se cargan desde los archivos correspondientes y al finalizar se guardan los cambios realizados en los archivos.
+ o promocionales (la "Licencia"). La Licencia se considerará efectiva a partir de la fecha en que el Afirmando aplicó CC0 a la Obra. Si alguna parte de la Licencia se considerara legalmente inválida o ineficaz por cualquier motivo bajo la ley aplicable, dicha invalidez o ineficacia parcial no invalidará el resto de la Licencia, y en tal caso el Afirmando afirma que no ejercerá (i) ninguno de sus restantes Derechos de Autor y Derechos Conexos en la Obra ni (ii) presentará ninguna reclamación o causa de acción asociada con la Obra, en contra de la Declaración de Propósito expresa del Afirmando.
+  
+- Limitaciones y Renuncias. Ningún derecho de marca registrada o patente poseído por el Afirmando se renuncia, abandona, cede, otorga licencia o se ve afectado de alguna otra manera por este documento. El Afirmando ofrece la Obra tal cual y no ofrece ninguna representación o garantía de ningún tipo con respecto a la Obra, expresa, implícita, legal o de otro tipo, incluyendo, entre otras, garantías de título, comerciabilidad, idoneidad para un propósito particular, no infracción o la ausencia de defectos latentes u otros, exactitud o presente o ausencia de errores, sean o no descubribles, todo ello en la medida máxima permitida por la ley aplicable. El Afirmando renuncia a la responsabilidad de obtener los derechos de otras personas que puedan aplicarse a la Obra o cualquier uso de la misma, incluyendo, entre otros, los Derechos de Autor y Derechos Conexos de cualquier persona en la Obra. Además, el Afirmando renuncia a la responsabilidad de obtener cualquier consentimiento, permiso o derecho necesario para cualquier uso de la Obra. El Afirmando comprende y reconoce que Creative Commons no es parte de este documento y no tiene ningún deber u obligación con respecto a este CC0 o al uso de la Obra.
 
-Los archivos utilizados son los siguientes:
-
-- `db/doctores.txt`: Almacena los datos de los doctores.
-- `db/pacientes.txt`: Almacena los datos de los pacientes.
-- `db/citas.txt`: Almacena los datos de las citas.
-- `db/relaciones.txt`: Almacena los datos de las relaciones entre citas, doctores y pacientes.
-
-## Requisitos del Sistema
-
-El proyecto de administración de citas tiene los siguientes requisitos del sistema:
-
-- Java Development Kit (JDK) 8 o superior
-
-.
-- Entorno de desarrollo integrado (IDE) compatible con Java, como Eclipse o IntelliJ IDEA.
-
-## Instrucciones de Uso
-
-Para utilizar el sistema de administración de citas, sigue los siguientes pasos:
-
-1. Descarga el proyecto e importa los archivos en tu IDE.
-2. Asegúrate de tener configurado el JDK en tu IDE.
-3. Compila y ejecuta el archivo `MainClass.java` para iniciar la aplicación.
-4. Sigue las instrucciones en pantalla para utilizar las diferentes funcionalidades del sistema.
-5. Al finalizar, los datos se guardarán automáticamente en los archivos correspondientes.
-
-## Mejoras Futuras
-
-A continuación se enumeran algunas mejoras que podrían implementarse en el proyecto en el futuro:
-
-1. Incorporar una interfaz gráfica de usuario (GUI) para una experiencia más intuitiva.
-2. Agregar funcionalidades de búsqueda avanzada, como búsqueda por fecha o motivo de la cita.
-3. Implementar la posibilidad de editar o eliminar doctores, pacientes y citas existentes.
-4. Mejorar la gestión de errores y validaciones de datos ingresados por el usuario.
-5. Permitir la generación de informes o reportes sobre las citas y la actividad de los doctores.
-
-## Conclusión
-
-La documentación del Proyecto de Administración de Citas proporciona una descripción detallada de la aplicación, su estructura, funcionalidades, requisitos del sistema, instrucciones de uso y posibles mejoras futuras. Este proyecto es una solución práctica y eficiente para la gestión de citas médicas, y puede ser adaptado y ampliado según las necesidades específicas de un entorno de atención médica.
