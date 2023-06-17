@@ -60,11 +60,11 @@ public class MainClass {
     }
 
     private static void darDeAltaDoctores() {
-        System.out.print("Ingrese el identificador único del doctor: ");
+        System.out.print("Ingrese  identificador único del doctor: ");
         String idDoctor = scanner.next();
-        System.out.print("Ingrese el nombre completo del doctor: ");
+        System.out.print("Ingrese nombre completo del doctor: ");
         String nombre = scanner.next();
-        System.out.print("Ingrese la especialidad del doctor: ");
+        System.out.print("Ingrese especialidad del doctor: ");
         scanner.nextLine(); // Consumir el salto de línea pendiente
         String especialidad = scanner.nextLine();
 
